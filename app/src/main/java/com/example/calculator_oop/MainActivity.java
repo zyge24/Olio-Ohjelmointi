@@ -24,25 +24,25 @@ public class MainActivity extends AppCompatActivity {
     public void plus(View view) {
         result = Integer.parseInt(number1Input.getText().toString()) + Integer.parseInt(number2Input.getText().toString());
         StringBuilder sb = new StringBuilder(number1Input.getText().toString() + " + " +number2Input.getText().toString() + " = " + Integer.toString(result));
-        System.out.println(result);
+//       System.out.println(result);
         resultField.setText(sb.toString());
     }
     public void subs(View view) {
         result = Integer.parseInt(number1Input.getText().toString()) - Integer.parseInt(number2Input.getText().toString());
         StringBuilder sb = new StringBuilder(number1Input.getText().toString() + " - " +number2Input.getText().toString() + " = " + Integer.toString(result));
-        System.out.println(result);
+//     System.out.println(result);
         resultField.setText(sb.toString());
     }
     public void divide(View view) {
         result = Integer.parseInt(number1Input.getText().toString()) / Integer.parseInt(number2Input.getText().toString());
         StringBuilder sb = new StringBuilder(number1Input.getText().toString() + " / " +number2Input.getText().toString() + " = " + Integer.toString(result));
-        System.out.println(result);
+//        System.out.println(result);
         resultField.setText(sb.toString());
     }
     public void multiply(View view) {
         result = Integer.parseInt(number1Input.getText().toString()) * Integer.parseInt(number2Input.getText().toString());
         StringBuilder sb = new StringBuilder(number1Input.getText().toString() + " * " +number2Input.getText().toString() + " = " + Integer.toString(result));
-        System.out.println(result);
+//        System.out.println(result);
         resultField.setText(sb.toString());
     }
 }
